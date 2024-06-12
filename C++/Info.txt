@@ -1,1 +1,21 @@
 ParticleClass.hpp:
++ A class for easily creating a particle system
++ Rendered using OpenGL
++ Currently requires the correct vertex layout and vertex array to be set up before hand.
++ Currently requires a fragment and vertex shader to be prepared before hand.
++ Able to customize certain physics properties and apperance.
++ Dependencies: GLFW, GLAD, GLAD is dependent on KHR
+
+Implementation.cpp:
++ Made for windows 32 bit
++ Window created using GLFW
++ OpenGL initialized using GLAD
++ An implementation for the particle system.
++ Custom shader with uniforms.
++ Dependencies: ParticleClass.hpp, GLFW, GLAD, GLAD is dependent on KHR
+
+ParticleSystem.exe:
++ Made for WIN32
++ Compiled version of Implementation.cpp and demonstrates the particle system.
++ DEPENDENT ON THE VISUAL STUDIO DISTRIBUTABLE (VCRUNTIME140.dll; Static compiling does not fix the issue, sort of unfixable.)
+
