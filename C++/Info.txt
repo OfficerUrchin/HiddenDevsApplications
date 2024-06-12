@@ -14,7 +14,7 @@ Implementation.cpp:
 + Custom shader with uniforms.
 + Dependencies: ParticleClass.hpp, GLFW, GLAD, GLAD is dependent on KHR
 
-ParticleSystem.exe:
+OpenGLParticleSystem.exe:
 + Made for WIN32
 + Compiled version of Implementation.cpp and demonstrates the particle system.
 + DEPENDENT ON THE VISUAL STUDIO DISTRIBUTABLE (VCRUNTIME140.dll; Static compiling does not fix the issue, sort of unfixable.)
